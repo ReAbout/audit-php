@@ -113,7 +113,8 @@ xdebug.client_port=9000
 ;客户端ip
 xdebug.client_host="192.168.117.1" 
 xdebug.idekey="PHPSTORM" 
-xdebug.remote_handler="dbgp"
+xdebug.log=/tmp/xdebug.log
+xdebug.start_with_request=yes
 ```
 
 
